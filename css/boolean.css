@@ -1,0 +1,82 @@
+@charset "UTF-8";
+#cover-img {
+  height: 200px;
+  width: 320px;
+  margin-top: 2vh;
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border:none;
+  box-shadow:none ;
+}
+
+#cover-section {
+  margin-top: 1vh; }
+
+.reveal br {
+  display: block;
+  /* makes it have a width */
+  content: "";
+  /* clears default height */
+  margin-top: 15px; }
+
+#titleI {
+  font-weight: bold;
+  margin: 0px; }
+
+.author {
+  font-weight: bold; }
+
+.reveal small {
+  display: block; }
+
+#h2_title {
+  height: 85px;
+  background-color: white }
+
+#h2_title img {
+  float: right;
+  margin-right: 1vw;
+  max-width: 9vw; }
+
+#h2_title h2 {
+  float: left;
+  margin-left: 1vw; }
+
+#objetivo-principal,
+#objetivos-específicos {
+  margin-left: 0px;
+  float: left;
+  clear: both;
+  display: block; }
+
+#cuatic_list {
+  float: left;
+  clear: both; }
+
+#obj {
+  display: inline-block; }
+
+.reveal .slides section .fragment.step-fade-in-then-out {
+  opacity: 0;
+  display: none; }
+
+.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+  opacity: 1;
+  display: inline; }
+
+#canvas_ferre > img {
+  max-width: 70%;
+  max-height: 100%; }
+
+#tam_ferre > img {
+  width: 980px;
+  height: 600px; }
+
+.reveal table {
+  border: 1px solid black; }
+
+#inv {
+  margin-top: 10%; }
+
+#inv_2 {
+  margin-top: 5%; }

@@ -15,6 +15,7 @@
 
 		<link rel="stylesheet" href="{{ site.reveal_path }}css/reveal.css">
 		<link rel="stylesheet" href="{{ site.reveal_theme_path }}{{ site.reveal_theme }}" id="theme">
+		
 {% if site.extra_css %}
 	{% for css_file in site.extra_css %}
 		<link rel="stylesheet" href="{{ css_file }}">
@@ -61,6 +62,8 @@
 								| replace:'</backgroundimage>','" --> '
 								| replace:'<backgroundimageopacity>','<!-- .slide: data-background-opacity="'
 								| replace:'</backgroundimageopacity>','" -->'
+								| replace:'<backgroundsize>','<!-- .slide: data-background-size="'
+								| replace:'</backgroundsize>','" -->'
 %}{%
 							assign first_char = line | strip
 								| slice: 0,1

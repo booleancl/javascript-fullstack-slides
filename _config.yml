@@ -8,7 +8,7 @@ description: A framework for easily creating beautiful presentations using HTML
 author: jekyll-revealjs contributors
 
 # The Reveal theme
-reveal_theme: black.css
+reveal_theme: sky.css
 
 # The Reveal transition
 reveal_transition: default
@@ -17,7 +17,7 @@ reveal_transition: default
 reveal_theme_path: reveal.js/css/theme/ 
 
 # Additional custom CSS paths
-extra_css: 
+extra_css: css/boolean.css
 
 # Custom CSS for highlighting (defaults to reveal.js/lib/css/zenburn.css)
 highlight_style_sheet: 
