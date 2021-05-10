@@ -11,7 +11,7 @@ author: jekyll-revealjs contributors
 reveal_theme: sky.css
 
 # The Reveal transition
-reveal_transition: default
+reveal_transition: fade
 
 # Path to the used theme (defaults to the Reveal.js standard theme path)
 reveal_theme_path: reveal.js/css/theme/ 
