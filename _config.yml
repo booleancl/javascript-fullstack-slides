@@ -39,6 +39,7 @@ exclude:
   - Gemfile*
   - LICENSE
   - README.md
+  - mindmap.md
 
 # Don't change anything below
 markdown: kramdown
