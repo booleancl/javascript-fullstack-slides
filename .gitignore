@@ -4,3 +4,4 @@ _site
 # Bundler configuration & artifacts
 .bundle/config
 Gemfile.lock
+.DS_Store
