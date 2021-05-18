@@ -5,6 +5,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.reveal section img {
+  /* margin: 15px 0px; */
+  /* background: rgba(255, 255, 255, 0.12); */
+  /* border: 4px solid #222; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+  border: none;
+  margin:10px;
+}
 /*
   INTRO
 */
@@ -27,6 +35,16 @@
   font-weight: bold;
   text-align: left;
 }
+
+#intro-subtitle {
+  display: flex;
+  max-width: 30vw;
+  color: #132193;
+  font-weight: bold;
+  text-align: left;
+}
+
+
 #intro-title::before {
   content: 'Curso';
   background-color: #132193;
